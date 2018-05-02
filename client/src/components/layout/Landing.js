@@ -43,7 +43,7 @@ class Landing extends Component {
                             <div className="ui grid">
                                 <div className={'doubling four column row'}>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -54,10 +54,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -65,7 +65,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -76,10 +76,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -87,7 +87,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -98,10 +98,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -109,7 +109,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -120,10 +120,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -131,7 +131,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -142,10 +142,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -153,7 +153,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -164,10 +164,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -175,7 +175,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -186,10 +186,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -197,7 +197,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -208,10 +208,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -219,7 +219,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -230,10 +230,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -241,7 +241,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -252,10 +252,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -263,7 +263,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -274,10 +274,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -285,7 +285,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -296,10 +296,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
@@ -307,7 +307,7 @@ class Landing extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="ui card">
+                                        <div className="ui card" style={{marginBottom: '25px'}}>
                                             <div className="content">
                                                 <div className="right floated meta">14h</div>
                                                 <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
@@ -318,10 +318,10 @@ class Landing extends Component {
                                             <div className="content">
                                             <span className="right floated">
                                               <i className="heart outline like icon"></i>
-                                              17 likes
+                                              17
                                             </span>
                                                 <i className="comment icon"></i>
-                                                3 comments
+                                                3
                                             </div>
                                             <div className="extra content">
                                                 <div class="ui bottom attached button" tabindex="0">Learn More</div>
