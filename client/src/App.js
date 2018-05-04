@@ -11,7 +11,8 @@ import store from './store';
 import PrivateRoute from './components/common/PrivateRoute';
 
 import Navbar from './components/layout/Nav';
-//import Footer from './components/layout/Footer';
+import Footer from './components/layout/Footer';
+import About from './components/layout/About';
 import Landing from './components/layout/Landing';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
@@ -62,6 +63,7 @@ class App extends Component {
               <Route exact path="/login" component={Login} />
               <Route exact path="/profiles" component={Profiles} />
               <Route exact path="/profile/:handle" component={Profile} />
+              <Route exact path="/about" component={About} />
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>
@@ -100,6 +102,7 @@ class App extends Component {
                 <PrivateRoute exact path="/post/:id" component={Post} />
               </Switch>
               <Route exact path="/not-found" component={NotFound} />
+              <Footer/>
             </div>
           </div>
         </Router>

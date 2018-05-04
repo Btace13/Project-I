@@ -17,6 +17,7 @@ class Navbar extends Component {
 
     const authLinks = (
         <div className="menu">
+            <Link className="item" to={'/about'}>About</Link>
             <Link className="item" to={'/feed'}>Idea Feed</Link>
             <Link className="item" to={'/dashboard'}>Dashboard</Link>
             <div className="divider"></div>
@@ -39,6 +40,7 @@ class Navbar extends Component {
 
     const guestLinks = (
         <div className="menu">
+            <Link className="item" to={'/about'}>About</Link>
             <Link className="item" to={'/login'}>LogIn</Link>
             <div className="divider"></div>
             <Link className="item" to={'/register'}>Sign Up</Link>

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e2f62d-dd48-40f4-b5b2-b22a1e188100" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/components/layout/About.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/public/index.html" afterPath="$PROJECT_DIR$/client/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/App.css" afterPath="$PROJECT_DIR$/client/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/App.js" afterPath="$PROJECT_DIR$/client/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/layout/Footer.js" afterPath="$PROJECT_DIR$/client/src/components/layout/Footer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/layout/Landing.js" afterPath="$PROJECT_DIR$/client/src/components/layout/Landing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/layout/Nav.js" afterPath="$PROJECT_DIR$/client/src/components/layout/Nav.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,26 +23,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Landing.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Landing.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/components/layout/Landing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="45" column="90" lean-forward="false" selection-start-line="45" selection-start-column="90" selection-end-line="45" selection-end-column="90" />
-              <caret line="67" column="90" lean-forward="false" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
-              <caret line="89" column="90" lean-forward="false" selection-start-line="89" selection-start-column="90" selection-end-line="89" selection-end-column="90" />
-              <caret line="111" column="90" lean-forward="false" selection-start-line="111" selection-start-column="90" selection-end-line="111" selection-end-column="90" />
-              <caret line="133" column="90" lean-forward="false" selection-start-line="133" selection-start-column="90" selection-end-line="133" selection-end-column="90" />
-              <caret line="155" column="90" lean-forward="false" selection-start-line="155" selection-start-column="90" selection-end-line="155" selection-end-column="90" />
-              <caret line="177" column="90" lean-forward="false" selection-start-line="177" selection-start-column="90" selection-end-line="177" selection-end-column="90" />
-              <caret line="199" column="90" lean-forward="false" selection-start-line="199" selection-start-column="90" selection-end-line="199" selection-end-column="90" />
-              <caret line="221" column="90" lean-forward="false" selection-start-line="221" selection-start-column="90" selection-end-line="221" selection-end-column="90" />
-              <caret line="243" column="90" lean-forward="false" selection-start-line="243" selection-start-column="90" selection-end-line="243" selection-end-column="90" />
-              <caret line="265" column="90" lean-forward="false" selection-start-line="265" selection-start-column="90" selection-end-line="265" selection-end-column="90" />
-              <caret line="287" column="90" lean-forward="false" selection-start-line="287" selection-start-column="90" selection-end-line="287" selection-end-column="90" />
-              <caret line="309" column="90" lean-forward="false" selection-start-line="309" selection-start-column="90" selection-end-line="309" selection-end-column="90" />
+            <state relative-caret-position="160">
+              <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/components/layout/About.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="9" column="792" lean-forward="false" selection-start-line="9" selection-start-column="792" selection-end-line="9" selection-end-column="792" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="65" column="61" lean-forward="true" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,11 +81,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/keys_dev.js" />
+        <option value="$PROJECT_DIR$/client/src/components/layout/Footer.js" />
+        <option value="$PROJECT_DIR$/client/src/App.css" />
         <option value="$PROJECT_DIR$/client/public/index.html" />
         <option value="$PROJECT_DIR$/client/src/components/layout/Nav.js" />
         <option value="$PROJECT_DIR$/client/src/App.js" />
-        <option value="$PROJECT_DIR$/client/src/App.css" />
         <option value="$PROJECT_DIR$/client/src/components/layout/Landing.js" />
+        <option value="$PROJECT_DIR$/client/src/components/layout/About.js" />
       </list>
     </option>
   </component>
@@ -121,6 +149,12 @@
               <item name="Project-I" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-I" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-I" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -157,6 +191,11 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components/layout" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -187,12 +226,12 @@
       <workItem from="1525111366362" duration="3795000" />
       <workItem from="1525123675744" duration="959000" />
       <workItem from="1525125524924" duration="35000" />
-      <workItem from="1525126583981" duration="4588000" />
+      <workItem from="1525126583981" duration="12408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42237000" />
+    <option name="totallyTimeSpent" value="50057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="722" extended-state="0" />
@@ -239,20 +278,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/keys_prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/keys_dev.js" />
     <entry file="file://$PROJECT_DIR$/client/src/components/layout/Nav.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -287,6 +312,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -330,6 +358,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -406,8 +437,8 @@
         <state relative-caret-position="294">
           <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#565#615#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#610#660#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -416,6 +447,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -573,27 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,33 +621,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="319">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/layout/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="61" lean-forward="false" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="65" column="61" lean-forward="true" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/layout/Landing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="45" column="90" lean-forward="false" selection-start-line="45" selection-start-column="90" selection-end-line="45" selection-end-column="90" />
-          <caret line="67" column="90" lean-forward="false" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
-          <caret line="89" column="90" lean-forward="false" selection-start-line="89" selection-start-column="90" selection-end-line="89" selection-end-column="90" />
-          <caret line="111" column="90" lean-forward="false" selection-start-line="111" selection-start-column="90" selection-end-line="111" selection-end-column="90" />
-          <caret line="133" column="90" lean-forward="false" selection-start-line="133" selection-start-column="90" selection-end-line="133" selection-end-column="90" />
-          <caret line="155" column="90" lean-forward="false" selection-start-line="155" selection-start-column="90" selection-end-line="155" selection-end-column="90" />
-          <caret line="177" column="90" lean-forward="false" selection-start-line="177" selection-start-column="90" selection-end-line="177" selection-end-column="90" />
-          <caret line="199" column="90" lean-forward="false" selection-start-line="199" selection-start-column="90" selection-end-line="199" selection-end-column="90" />
-          <caret line="221" column="90" lean-forward="false" selection-start-line="221" selection-start-column="90" selection-end-line="221" selection-end-column="90" />
-          <caret line="243" column="90" lean-forward="false" selection-start-line="243" selection-start-column="90" selection-end-line="243" selection-end-column="90" />
-          <caret line="265" column="90" lean-forward="false" selection-start-line="265" selection-start-column="90" selection-end-line="265" selection-end-column="90" />
-          <caret line="287" column="90" lean-forward="false" selection-start-line="287" selection-start-column="90" selection-end-line="287" selection-end-column="90" />
-          <caret line="309" column="90" lean-forward="false" selection-start-line="309" selection-start-column="90" selection-end-line="309" selection-end-column="90" />
+        <state relative-caret-position="160">
+          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/layout/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="9" column="792" lean-forward="false" selection-start-line="9" selection-start-column="792" selection-end-line="9" selection-end-column="792" />
+          <folding />
         </state>
       </provider>
     </entry>

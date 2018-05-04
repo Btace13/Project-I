@@ -5,3 +5,13 @@
 #landing{
     margin-top: 80px;
 }
+#ideaItem{
+    border: 1px solid #222222;
+    padding: 8px;
+    margin: 12px auto;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 0;
+}

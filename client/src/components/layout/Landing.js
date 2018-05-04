@@ -37,301 +37,233 @@ class Landing extends Component {
                         </div>
                     </div>
                 </div>
-                        <div id="ideas">
-                            <h1 style={{marginTop: '30px'}}>Idea Feed</h1>
-                            <hr style={{marginBottom: '30px'}} />
-                            <div className="ui grid">
-                                <div className={'doubling four column row'}>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column">
-                                        <div className="ui card" style={{marginBottom: '25px'}}>
-                                            <div className="content">
-                                                <div className="right floated meta">14h</div>
-                                                <img alt={''} className="ui avatar image" src="http://via.placeholder.com/350x250"/> Elliot
-                                            </div>
-                                            <div className="image">
-                                                <img src="http://via.placeholder.com/350x250" alt=""/>
-                                            </div>
-                                            <div className="content">
-                                            <span className="right floated">
-                                              <i className="heart outline like icon"></i>
-                                              17
-                                            </span>
-                                                <i className="comment icon"></i>
-                                                3
-                                            </div>
-                                            <div className="extra content">
-                                                <div class="ui bottom attached button" tabindex="0">Learn More</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                <div id="ideas">
+                    <h1 style={{marginTop: '30px'}}>Idea Feed</h1>
+                    <hr style={{marginBottom: '30px'}}/>
+                    <div style={{marginBottom: '30px'}}>
+                        <div className="ui menu">
+                            <div className="header item">
+                                Filters
+                            </div>
+                            <div class="item">
+                                <div class="ui icon input">
+                                    <input type="text" placeholder="Search..."/>
+                                        <i class="search icon"></i>
                                 </div>
                             </div>
+                                <div class="ui simple  dropdown item">
+                                    Categories
+                                    <i class="dropdown icon"></i>
+                                    <div class="menu">
+                                        <a class="item">Electronics</a>
+                                        <a class="item">Automotive</a>
+                                        <a class="item">Home</a>
+                                    </div>
+                                </div>
+                            <a className="item">
+                               Next
+                            </a>
                         </div>
+                    </div>
+                            <div className="ui items">
+                                <div id={'ideaItem'} className="ui item">
+                                    <div className="image">
+                                        <img alt={'yikes'} src="http://via.placeholder.com/350x250"/>
+                                    </div>
+                                    <div className="content">
+                                        <a className="header">Header</a>
+                                        <div className="meta">
+                                                Description
+                                        </div>
+                                        <div className="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                                                architecto atque consectetur cum debitis deleniti dicta error...</p>
+                                        </div>
+                                        <div className="extra">
+                                                <span>
+                                                  <a href=""><i className="heart icon"></i></a>
+                                                121
+                                                </span>
+                                                <span>
+                                                  <a href=""><i className="comment icon"></i></a>
+                                                121
+                                                </span>
+                                            <div className="ui right floated button">
+                                                Learn More
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id={'ideaItem'} className="ui item">
+                                    <div className="image">
+                                        <img alt={'yikes'} src="http://via.placeholder.com/350x250"/>
+                                    </div>
+                                    <div className="content">
+                                        <a className="header">Header</a>
+                                        <div className="meta">
+                                            Description
+                                        </div>
+                                        <div className="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                                                architecto atque consectetur cum debitis deleniti dicta error...</p>
+                                        </div>
+                                        <div className="extra">
+                                                <span>
+                                                  <a href=""><i className="heart icon"></i></a>
+                                                121
+                                                </span>
+                                            <span>
+                                                  <a href=""><i className="comment icon"></i></a>
+                                                121
+                                                </span>
+                                            <div className="ui right floated button">
+                                                Learn More
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id={'ideaItem'} className="ui item">
+                                    <div className="image">
+                                        <img alt={'yikes'} src="http://via.placeholder.com/350x250"/>
+                                    </div>
+                                    <div className="content">
+                                        <a className="header">Header</a>
+                                        <div className="meta">
+                                            Description
+                                        </div>
+                                        <div className="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                                                architecto atque consectetur cum debitis deleniti dicta error...</p>
+                                        </div>
+                                        <div className="extra">
+                                                <span>
+                                                  <a href=""><i className="heart icon"></i></a>
+                                                121
+                                                </span>
+                                            <span>
+                                                  <a href=""><i className="comment icon"></i></a>
+                                                121
+                                                </span>
+                                            <div className="ui right floated button">
+                                                Learn More
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id={'ideaItem'} className="ui item">
+                                    <div className="image">
+                                        <img alt={'yikes'} src="http://via.placeholder.com/350x250"/>
+                                    </div>
+                                    <div className="content">
+                                        <a className="header">Header</a>
+                                        <div className="meta">
+                                            Description
+                                        </div>
+                                        <div className="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                                                architecto atque consectetur cum debitis deleniti dicta error...</p>
+                                        </div>
+                                        <div className="extra">
+                                                <span>
+                                                  <a href=""><i className="heart icon"></i></a>
+                                                121
+                                                </span>
+                                            <span>
+                                                  <a href=""><i className="comment icon"></i></a>
+                                                121
+                                                </span>
+                                            <div className="ui right floated button">
+                                                Learn More
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id={'ideaItem'} className="ui item">
+                                    <div className="image">
+                                        <img alt={'yikes'} src="http://via.placeholder.com/350x250"/>
+                                    </div>
+                                    <div className="content">
+                                        <a className="header">Header</a>
+                                        <div className="meta">
+                                            Description
+                                        </div>
+                                        <div className="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                                                architecto atque consectetur cum debitis deleniti dicta error...</p>
+                                        </div>
+                                        <div className="extra">
+                                                <span>
+                                                  <a href=""><i className="heart icon"></i></a>
+                                                121
+                                                </span>
+                                            <span>
+                                                  <a href=""><i className="comment icon"></i></a>
+                                                121
+                                                </span>
+                                            <div className="ui right floated button">
+                                                Learn More
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id={'ideaItem'} className="ui item">
+                                    <div className="image">
+                                        <img alt={'yikes'} src="http://via.placeholder.com/350x250"/>
+                                    </div>
+                                    <div className="content">
+                                        <a className="header">Header</a>
+                                        <div className="meta">
+                                            Description
+                                        </div>
+                                        <div className="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                                                architecto atque consectetur cum debitis deleniti dicta error...</p>
+                                        </div>
+                                        <div className="extra">
+                                                <span>
+                                                  <a href=""><i className="heart icon"></i></a>
+                                                121
+                                                </span>
+                                            <span>
+                                                  <a href=""><i className="comment icon"></i></a>
+                                                121
+                                                </span>
+                                            <div className="ui right floated button">
+                                                Learn More
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id={'ideaItem'} className="ui item">
+                                    <div className="image">
+                                        <img alt={'yikes'} src="http://via.placeholder.com/350x250"/>
+                                    </div>
+                                    <div className="content">
+                                        <a className="header">Header</a>
+                                        <div className="meta">
+                                            Description
+                                        </div>
+                                        <div className="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                                                architecto atque consectetur cum debitis deleniti dicta error...</p>
+                                        </div>
+                                        <div className="extra">
+                                                <span>
+                                                  <a href=""><i className="heart icon"></i></a>
+                                                121
+                                                </span>
+                                            <span>
+                                                  <a href=""><i className="comment icon"></i></a>
+                                                121
+                                                </span>
+                                            <div className="ui right floated button">
+                                                Learn More
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
             </div>
         );
     }
