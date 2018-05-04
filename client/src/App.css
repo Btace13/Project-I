@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 #navbar{
-    background: #44bd32;
+    background: #00B238;
     font-size: 1.123em;
+}
+#navbar .header {
+    font-size: 1.1em;
+    font-family: 'Pacifico', cursive;
+}
+.ui.buttons>.ui.dropdown:last-child .menu, .ui.menu .right.dropdown.item .menu, .ui.menu .right.menu .dropdown:last-child .menu {
+    padding: 15px;
 }
 #landing{
     margin-top: 80px;
+}
+.logo-text{
+    font-size: 4em;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 40px;
 }
 #ideaItem{
     border: 1px solid #222222;
@@ -11,7 +25,14 @@
     margin: 12px auto;
 }
 footer {
-    text-align: center;
-    margin-top: 100px;
-    padding: 10px 0;
+    margin: 100px 0 0 0;
+    background: #00B238;
+}
+.idea-card .ui.card>.button, .ui.card>.buttons, .ui.cards>.card>.button, .ui.cards>.card>.buttons {
+    background: #00B238;
+    color: #000000;
+}
+#landing .ui.huge.button, .ui.huge.buttons .button, .ui.huge.buttons .or {
+    color: #fff;
+    background: #F12100;
 }
