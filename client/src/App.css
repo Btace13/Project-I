@@ -6,7 +6,6 @@
 }
 #navbar .header {
     font-size: 1.1em;
-    font-family: 'Pacifico', cursive;
 }
 .ui.buttons>.ui.dropdown:last-child .menu, .ui.menu .right.dropdown.item .menu, .ui.menu .right.menu .dropdown:last-child .menu {
     padding: 15px;
