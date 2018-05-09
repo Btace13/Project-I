@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import classnames from 'classnames';
 import {Link} from 'react-router-dom';
 import {deletePost, addLike, removeLike} from '../../actions/postActions';
-import idea from '../../img/showcase.jpg';
+import idea from '../../img/header.jpeg';
 
 class PostItem extends Component {
     onDeleteClick(id) {
@@ -32,39 +32,35 @@ class PostItem extends Component {
         const {post, auth, showActions} = this.props;
 
         return (
-            <div id="ideas">
-                <h1 style={{marginTop: '80px', fontSize: '2em'}}>Idea Feed</h1>
-                <hr style={{marginBottom: '30px'}}/>
-                <div style={{marginBottom: '30px'}}>
-                </div>
-                <div className="ui three stackable cards">
                     <div className="ui raised link card idea-card">
                         <div className="image">
                             <img src={idea}/>
                         </div>
                         <div className="content">
                             <div className="right floated author">
-                                <img className="ui avatar image" src="https://tinyurl.com/y86yjmya"/> Ace
+                                <img className="ui avatar image" src={post.avatar}/>
+                                {post.name}
                             </div>
                             <div className="header">
-                                Idea Title
+                                {post.title || 'Idea Title'}
                             </div>
-                            <div className="meta">2 days ago</div>
+                            {/*<div className="meta">2 days ago</div>*/}
                             <div className="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur
-                                consequuntur voluptates? Ad alias, aperiam culpa cum illum magnam...
+                                {post.text}
                             </div>
                         </div>
                         <div className="extra content">
                                 <span className="left floated like">
-                                  <i className="like icon"></i>
-                                  123
+                                         <i className="like icon"  onClick={this.onLikeClick.bind(this, post._id)}></i>
+                                    {post.likes.length}
                                 </span>
                             <span className="right floated star">
                                   <a href="">
-                                      <i className="comment icon"></i>
+                                       <Link  to={`/post/${post._id}`}>
+                                        <i className="comment icon"></i>
+                                    </Link>
                                   </a>
-                                  123
+                                {post.comments.length}
                                 </span>
                         </div>
                         <div className="ui bottom attached button">
@@ -72,8 +68,6 @@ class PostItem extends Component {
                             <i className="caret right icon"></i>
                         </div>
                     </div>
-                </div>
-            </div>
         );
     }
 }

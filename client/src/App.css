@@ -35,3 +35,6 @@ footer {
     color: #fff;
     background: #F12100;
 }
+i.like .icon{
+    color: red;
+}

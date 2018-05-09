@@ -23,14 +23,14 @@ class Posts extends Component {
 
     return (
       <div className="feed">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
               <PostForm />
-              {postContent}
-            </div>
-          </div>
-        </div>
+                <div id="ideas">
+                    <h1 style={{marginTop: '80px', fontSize: '2em'}}>Idea Feed</h1>
+                    <hr style={{marginBottom: '30px'}}/>
+                    <div className="ui three stackable cards">
+                        {postContent}
+                    </div>
+                </div>
       </div>
     );
   }

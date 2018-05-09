@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import TextAreaFieldGroup from '../common/TextAreaFieldGroup';
 import { addPost } from '../../actions/postActions';
+import TextFieldGroup from "../common/TextFieldGroup";
 
 class PostForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
       text: '',
+        tite: '',
       errors: {}
     };
 
@@ -28,13 +30,14 @@ class PostForm extends Component {
     const { user } = this.props.auth;
 
     const newPost = {
+      title: this.state.title,
       text: this.state.text,
       name: user.name,
       avatar: user.avatar
     };
 
     this.props.addPost(newPost);
-    this.setState({ text: '' });
+    this.setState({ text: '', title: '' });
   }
 
   onChange(e) {
@@ -51,6 +54,13 @@ class PostForm extends Component {
           <div className="card-body">
             <form onSubmit={this.onSubmit}>
               <div className="form-group">
+                  <TextFieldGroup
+                      name="title"
+                      placeholder={'title'}
+                      value={this.state.title}
+                      onChange={this.onChange}
+                      error={errors.text}
+                  />
                 <TextAreaFieldGroup
                   placeholder="Create a post"
                   name="text"
